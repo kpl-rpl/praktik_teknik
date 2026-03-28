@@ -1,0 +1,5 @@
+*.slnx
+.vs
+kpl_implementasi_teknik/bin
+kpl_implementasi_teknik/obj
+
