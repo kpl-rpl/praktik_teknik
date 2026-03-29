@@ -1,7 +1,10 @@
-﻿class Program
+using System;
+
+class Program
 {
     static void Main(string[] args)
     {
-        TeknikGeneric.Run();
+        PengeluaranService service = new PengeluaranService();
+        service.Menu();
     }
 }
