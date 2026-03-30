@@ -25,8 +25,8 @@ class Program
                 KamarKosTableDriven.Run();
             } },
             { 5, () => {
-                Console.WriteLine("\n=== Modul Teknik Generic ===");
-                // TeknikGeneric.Run();
+                Console.WriteLine("\n=== Modul Kamar Kos (Teknik Generic) ===");
+                TeknikGeneric.Run();
             } }
         };
 
@@ -38,7 +38,7 @@ class Program
             Console.WriteLine("2. Pemasukan (Table Driven)");
             Console.WriteLine("3. Kamar Kos (State Based)");
             Console.WriteLine("4. Kamar Kos (Table Driven)");
-            Console.WriteLine("5. Teknik Generic");
+            Console.WriteLine("5. Kamar Kos (Teknik Generic)");
             Console.WriteLine("6. Keluar");
             Console.Write("Pilih menu: ");
             if (!int.TryParse(Console.ReadLine(), out pilihan))
