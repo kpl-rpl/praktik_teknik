@@ -29,7 +29,7 @@ namespace kpl_implementasi_teknik
 
                 if (menuPemasukan.ContainsKey(pilihan))
                 {
-                    menuPemasukan[pilihan](); // ambil dari tabel
+                    menuPemasukan[pilihan](); // Ambil dari Tabel
                 }
                 else
                 {
@@ -39,7 +39,7 @@ namespace kpl_implementasi_teknik
                 TampilkanSemua();
             }
 
-            // ===== INPUT DATA =====
+            // INPUT DATA
             static void InputSewaKamar()
             {
                 Console.Write("Nama penghuni: ");
@@ -84,7 +84,7 @@ namespace kpl_implementasi_teknik
                 catatan.Add($"{ket}: {jumlah}");
             }
 
-            // ===== TAMPILKAN DATA =====
+            // TAMPILKAN DATA
             static void TampilkanSemua()
             {
                 Console.WriteLine("\n=== Catatan Pemasukan ===");
